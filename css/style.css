@@ -646,7 +646,7 @@ header {
 .btn-modal:focus {
     background-color: #404bbf;
     border: none;
-    fill: #ffffff;
+
 
 }
 
@@ -654,6 +654,12 @@ header {
     /* display: block; */
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: rgba(46, 47, 66, 1);
+}
+
+.btn-modal:hover .modal-icon,
+.btn-modal:focus .modal-icon {
+    fill: #ffffff;
+
 }
 
 .is-hidden {
