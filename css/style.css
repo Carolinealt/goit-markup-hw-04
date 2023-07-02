@@ -111,8 +111,8 @@ header {
     letter-spacing: 0.02em;
 }
 
-.header-list-link:hover::after {
-    /* .header-list-link::after { */
+/* .header-list-link:hover::after { */
+    .header-list-link::after {
     content: "";
     display: block;
     background-color: #404bbf;
