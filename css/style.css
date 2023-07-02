@@ -575,7 +575,6 @@ header {
 
 .cover-block-text {
     background-color: var(--color-logo);
-    display: block;
     position: absolute;
     top: 0;
     letter-spacing: 0.02em;
